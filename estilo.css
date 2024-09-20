@@ -1,0 +1,406 @@
+    *{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+header{
+    width: 100%;
+}
+
+
+nav{
+    background-color: rgb(18, 36, 95);
+    width: 100%;
+    height: 100px;
+    padding: 0 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    width: 200%;
+    height: 200%;
+}
+nav .logo img{
+    height: 100%;
+}
+
+nav .mh_icon{
+ 
+    filter: invert(1);
+    height: 50%;
+    display: none;
+}
+
+header{
+    width: 100%;
+}
+#lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    margin: 30px;
+
+}
+
+ul li a:hover{
+    border-bottom: white solid 2px ;
+}
+
+
+
+    
+    div.productora {
+        width: 40%;
+        background-color: rgb(18, 36, 95);
+        color: rgb(255, 255, 255);
+        text-align: right;
+        font-size: 1em;
+        padding: 0px 10px;  
+        background-position: top;
+        text-transform: uppercase;
+        position: relative;
+        top: -300px;
+        right: -55%;
+        border-radius:50px;
+    }
+
+    div.creatividad{
+        width: 30%;
+        background-color: rgb(18, 36, 95);
+        color: rgb(255, 255, 255);
+        text-align: right;
+        font-size: 1em;
+        padding: 0px 10px;  
+        background-position: top;
+        text-transform: uppercase;
+        position: relative;
+        top: -270px;
+        right: -60%;
+        border-radius: 50px;
+    }
+    
+    div.productora p{
+        text-align: center;
+    }
+    div.creatividad p{
+        text-align: center;
+    }
+
+    .uno{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        align-content: flex-start;
+    }
+
+     .etiqueta{
+        background-color: rgb(18, 36, 95);
+        border-radius: 5px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        margin: 10px;
+    }
+
+    .etiqueta h2{
+        width: 100%;
+        font-size: 2em;
+        background-color:  rgb(18, 36, 95);
+        color: white;
+        text-align: center;  
+        height: 40px;    
+        border-radius: 5px;  
+    }
+
+    .uno{
+        width: 100vh;
+    }
+
+    div .uno_img img{
+        width: 50%;
+        height: 50%;
+    }
+    div .uno_texto_logo{
+        font-size: 1.5em;
+        color:rgb(18, 36, 95) ;
+    }
+    .dos_img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .galeria{
+        color: white;
+        background-color: rgb(18, 36, 95);
+       }
+
+   .explore{
+    font-size: 3em;
+    text-align: center;
+    color:rgb(18, 36, 95) ;
+   }
+  
+   
+   .two{
+    border-bottom:rgb(18, 36, 95) solid 10px;
+
+    }
+
+    
+   div .photoshop img{  
+    width: 100px;
+    height: 100px;
+    position:relative;
+   }
+
+    div .illustrator img{
+        width: 100px;
+        height: 100px;
+    position:relative;
+}
+
+    div .premier img{
+        width: 120px;
+        height: 120px;
+    position:relative;
+}
+
+    .tres{
+    
+    margin: auto;
+    padding: 20px;
+   
+  
+    }
+    
+    .tres div article{
+    
+    width:100%;
+    height: 100%;
+    margin: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    max-height: 500px;
+    min-height: 200px;
+    border: 5px solid rgb(18, 36, 95);
+    
+    }
+    
+    .tres article h2{
+    width: 100%;
+    font-size: 4em;
+    color: rgb(18, 36, 95);
+    text-align: center;
+    
+    }
+    
+    .tres article p{
+    
+    width: 45%;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    color: rgb(18, 36, 95);
+    
+    }
+    
+    .tres article div{
+    
+    width: 50%;
+    max-height: 400px;
+    min-height: 200px;
+    
+    }
+    
+    .tres article div img{
+   width: 50;
+    height: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-top: 20%;
+    
+    }
+   
+
+    #contact{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+   
+    .contacto {
+    
+    background-image: url(img/animacion_4.jpeg);
+    border-radius: 80px; 
+    border: 10px solid rgb(18, 36, 95);
+   }
+    
+    .contacto form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+    
+    
+    
+    .contacto label, option, textarea, input, select {font-family: 'Oswald', sans-serif;
+    font-size: 1em;}
+    
+    .contacto label {color: rgb(18, 36, 95);
+        transition: 0.5s ease all;}
+    
+    .contacto option {color: rgb(18, 36, 95);
+    border: none;
+    border-bottom: 2px solid rgb(18, 36, 95);
+    background: none;
+    outline: none;}
+    
+    .contacto form legend {
+    font-size: 2em;
+    color: rgb(18, 36, 95);
+    text-align: center;
+    width: 100%;}
+    
+    .contacto input {border: none;
+    border-bottom: 2px solid rgb(18, 36, 95);
+    color: rgb(18, 36, 95);
+    background: none;
+    outline: none;}
+    
+    .contacto select{color: rgb(18, 36, 95);
+    border: none;
+    border-bottom: 2px solid rgb(18, 36, 95);
+    background: none;
+    outline: none;
+    margin-bottom: 30px;
+    margin-top: 10px;}
+    
+    .contacto textarea{
+    width: 70%;
+    margin-top: 15px;
+    background: none;
+    border: none;
+    border: 2px solid rgb(18, 36, 95);
+    background-color: rgb(255 255 255 / 100%)}
+    
+    .contacto, #enviar, #reset {margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+    }
+    
+    .contacto input:hover{transform: scale(1.2);
+    background-color:rgb(18, 36, 95);
+    color: white;
+    border-radius: 10px;
+    text-align: center;}
+    
+    .contacto textarea:hover{transform: scale(1.2);
+    background-color:rgb(18, 36, 95);
+    color: white;
+    text-align: center;}
+    
+    .contacto #enviar input:hover{transform: scale(1.3);
+    text-align: center;
+    border-radius: 0px;
+    padding: 7px;}
+    #contacto #reset input:hover{transform: scale(1.3);
+    text-align: center;
+    border-radius: 0px;
+    padding: 7px;}
+    
+    .contacto select:hover{transform: scale(1.2);
+    background-color:rgb(18, 36, 95);
+    color: white;
+    border-radius: 10px;}
+
+    .cinco{
+    text-align: center;
+    color: rgb(18, 36, 95);
+    font-size: 1.5em;
+    justify-content: center;
+}
+    .cinco p{
+    background-color: rgb(18, 36, 95);
+    color: white;
+}
+
+
+    .cinco_dos{
+    display: flex;
+    justify-content: center;
+}
+    .cinco_dos figure{
+    width: 100%;
+    margin: 20px;
+    background-color:rgb(18, 36, 95);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    
+    
+}
+    .cinco_dos figure video{
+    width: 100%;
+    object-fit: cover;
+}
+   
+    .seis{
+    width: 50vh;
+    height: 80vh;
+    background-color: rgb(18, 36, 95);
+    border-radius: 200%;
+    
+}
+
+    .seis img{
+    width: 300px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    margin: 0;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+footer a{
+    color: rgb(18, 36, 95);
+    text-decoration: none;
+    font-size: 1.5em ;
+    margin: 5px;
+}
+
+
+
+
+
